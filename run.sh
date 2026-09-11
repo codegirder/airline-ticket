@@ -4,5 +4,5 @@ cmake -S . -B build -G Ninja \
 
 cmake --build build
 
-./build/cpp_starter
+./build/airline_ticket
 

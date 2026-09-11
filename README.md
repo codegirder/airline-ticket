@@ -3,9 +3,9 @@
 
 ## Build
 ```
-cmake -S . -B build -G Ninja -DCMAKE_CXX_COMPILER=/opt/homebrew/opt/llvm/bin/clang++
-cmake --build build
-./build/main
+chmod +x run.sh 
+
+./run.sh
 ```
 
 If CMake says the `import std` UUID is incorrect, get the new one with
